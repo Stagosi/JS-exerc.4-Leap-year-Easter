@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Leap Year</title>
+</head>
+<body>
+  <!--determine a leap year-->
+  <h4> Determine if year is a leap year <br>
+    (in the Gregorian calendar):</h4>
+  <label for="calculate">Enter year:</label>
+  <input id="calculate" type="number" min="0" placeholder="here"><br><br>
+  <button id="calcBtn" onclick="leapYear()">Press for result</button><br>
+  <p id="result"></p>
+  <!--Catholic Easter-->
+  <hr>
+  <p id="resultCeaster">Catholic Easter <b>(by Gregorian calendar)</b> for year:</p>
+  <input id="ceYear" type="number" min="0" placeholder="enter year here">
+  <button id="calculateCe" onclick="catholicEaster()">click here</button><br>
+  <p id="cEtext">fdfdfdf</p>
+  <hr>
+  <!--Orthodox Easter-->
+  <p id="resultOeaster">Orthodox Easter <b>(by Julian calendar)</b> for year:</p>
+  <input id="oeYear" type="number" min="0" placeholder="enter year here">
+  <button id="calculateOe" onclick="orthodoxEaster()">click here</button><br>
+  <p id="oEtext">fdfdfdf</p>
+  <script type="text/javascript" src="exercises4.js"></script>
+</body>
+</html>
